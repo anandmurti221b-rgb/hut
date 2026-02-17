@@ -1,4 +1,5 @@
 {
+  "homepage":"https://anandmurti221b-rgb.github.io/hut",
   "name": "hut",
   "version": "0.1.0",
   "private": true,
@@ -6,7 +7,9 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+  "deploy": "next build && gh-pages -d out"
+
   },
   "dependencies": {
     "next": "16.1.6",
